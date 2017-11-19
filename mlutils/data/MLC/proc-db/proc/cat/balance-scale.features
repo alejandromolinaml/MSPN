@@ -1,0 +1,5 @@
+Left-Weight:discrete:0,1,2,3,4.
+Left-Distance:discrete:0,1,2,3,4.
+Right-Weight:discrete:0,1,2,3,4.
+Right-Distance:discrete:0,1,2,3,4.
+class:categorical:0,1,2.

@@ -1,0 +1,10 @@
+Refractive Index:		continuous.
+Sodium:				continuous.
+Magnesium:			continuous.
+Aluminum:			continuous.
+Silicon:			continuous.
+Potassium:			continuous.
+Calcium:			continuous.
+Barium:				continuous.
+Iron:				continuous.
+class: categorical: building_windows_float_processed, building_windows_non_float_processed,vehicle_windows_float_processed, vehicle_windows_non_float_processed,containers, tableware, headlamps.

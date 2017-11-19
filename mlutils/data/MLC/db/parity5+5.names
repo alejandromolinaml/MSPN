@@ -1,0 +1,21 @@
+| Parity of bits 2,3,4,6,8 (1,5,7,9,10 irrelevant).  By Ronny Kohavi
+| First used in John, Kohavi, and Pfleger, 
+|    Irrelevant features and the subset selection
+|    problem. In Machine Learning: Proceedings of the Eleventh International
+|    Conference, 1994, available in http://robotics.stanford.edu/~ronnyk
+| The training set gives 100 randomly selected instances.
+|   Induction algorithms doing good feature subset selection thus
+|   see all instances (there are only 32 instances over 5 bits).
+
+0, 1.
+
+Bit 1: 0, 1.
+Bit 2: 0, 1.
+Bit 3: 0, 1.
+Bit 4: 0, 1.
+Bit 5: 0, 1.
+Bit 6: 0, 1.
+Bit 7: 0, 1.
+Bit 8: 0, 1.
+Bit 9: 0, 1.
+Bit 10: 0, 1.

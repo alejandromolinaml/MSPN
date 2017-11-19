@@ -1,0 +1,14 @@
+Age: continuous.
+Sex: continuous.
+ChestPain: continuous.
+RestBP: continuous.
+Cholesterol: continuous.
+BloodSugar: continuous.
+ECG: continuous.
+MaxHeartRate: continuous.
+Angina: continuous.
+OldPeak: continuous.
+STSlope: continuous.
+Vessels: continuous.
+Thal: continuous.
+class: categorical: 1,2.

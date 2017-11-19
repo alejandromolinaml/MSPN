@@ -1,0 +1,31 @@
+|Discretization into bins of size 0
+|
+|Discretization of Attribute: "sepal-length"
+|
+|Bin0: (-INF, 5.45)
+|Bin1: [5.45,5.85)
+|Bin2: [5.85,+INF)
+|
+|Discretization of Attribute: "sepal-width"
+|
+|Bin0: (-INF, 3.05)
+|Bin1: [3.05,+INF)
+|
+|Discretization of Attribute: "petal-length"
+|
+|Bin0: (-INF, 2.6)
+|Bin1: [2.6,4.85)
+|Bin2: [4.85,+INF)
+|
+|Discretization of Attribute: "petal-width"
+|
+|Bin0: (-INF, 0.75)
+|Bin1: [0.75,1.65)
+|Bin2: [1.65,+INF)
+|MLC++ discretize utility
+Iris-setosa, Iris-versicolor, Iris-virginica.
+
+sepal-length: -Inf-5\.45, 5\.45-5\.85, 5\.85-Inf.
+sepal-width: -Inf-3\.05, 3\.05-Inf.
+petal-length: -Inf-2\.6, 2\.6-4\.85, 4\.85-Inf.
+petal-width: -Inf-0\.75, 0\.75-1\.65, 1\.65-Inf.

@@ -1,0 +1,5 @@
+Left-Weight:continuous:1.0,5.0.
+Left-Distance:continuous:1.0,5.0.
+Right-Weight:continuous:1.0,5.0.
+Right-Distance:continuous:1.0,5.0.
+class:categorical:L,B,R.

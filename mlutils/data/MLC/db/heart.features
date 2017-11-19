@@ -1,0 +1,14 @@
+Age: continuous.
+Sex: categorical.
+ChestPain: discrete.
+RestBP: continuous.
+Cholesterol: continuous.
+BloodSugar: discrete.
+ECG: discrete.
+MaxHeartRate: continuous.
+Angina: categorical.
+OldPeak: continuous.
+STSlope: discrete.
+Vessels: discrete.
+Thal: continuous.
+class: categorical: 1,2.

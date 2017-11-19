@@ -1,0 +1,116 @@
+| .names file created by George John, October 1994
+|
+|1.TITLE
+|	Heart disease dataset
+|
+|2. USE in STATLOG
+|	2.1- Testing Mode
+|		9-fold cross validation.
+|		
+|		Cost Matrix
+|
+|	 		abse  pres
+|		absence	  0	1
+|		presence  5	0
+|
+|		where the rows represent the true values and the columns the predicted.
+|
+|	2.2- Special Preprocessing
+|		No
+|
+|	2.3- Test Results
+|			
+|				Cost 		TIME
+|		Algorithm	Train	Test	Train	Test
+|		--------------------------------------------
+|		Bayes 		0.351	0.374	6	3
+|		Discrim 	0.315	0.393	14	3
+|		LogDisc 	0.271	0.396	128	7
+|		Alloc80		0.394	0.407	31	5
+|		QuaDisc 	0.274	0.422	60	16
+|		Castle 		0.374	0.441	16	3
+|		Cal5 		0.517	0.444	8	
+|		Cart 		0.463	0.452	7	1
+|		Cascade 	?	0.467
+|		KNN 		0	0.478	0	1
+|		Smart 		0.264	0.478	725	1
+|		Dipol92			0.507
+|		Itrule			0.515	5	?
+|		BayTree			0.526
+|		Default			0.560
+|		BackProp 	0.381	0.574	128	13
+|		LVQ			0.600
+|		IndCart 	0.261	0.630	8	1
+|		Kohonen			0.693
+|		Ac2 		0	0.744	250	
+|		Cn2 		0,206	0.767	25	5
+|		Radial 		0.303	0.781	26	4
+|		C4.5 		0.439	0.781	34	1
+|		NewId 		0	0.844	12	?
+|
+|3. Sources and Paste Usage
+|
+|4.	
+|	Number of EXAMPLES
+|		270 observations
+|	
+|	NUMBER of CLASSES: 2
+|		
+|		Absence (1) or presence (2) of heart disease
+|		
+|		Class	Nr.Examples
+|		-------------------
+|		1	150 ( 55.56%)
+|		2	120 ( 44.44%)
+|
+|	NUMBER of ATTRIBUTES
+|		This database contains 13 attributes 
+|		(which have been extracted from a larger set of 75)       
+|
+|		Attribute Information:
+|		------------------------
+|      		-- 1. age       
+|      		-- 2. sex       
+|      		-- 3. chest pain type  (4 values)       
+|      		-- 4. resting blood pressure  
+|      		-- 5. serum cholestoral in mg/dl      
+|      		-- 6. fasting blood sugar > 120 mg/dl       
+|      		-- 7. resting electrocardiographic results  (values 0,1,2) 
+|      		-- 8. maximum heart rate achieved  
+|      		-- 9. exercise induced angina    
+|      		-- 10. oldpeak = ST depression induced by exercise relative to rest   
+|      		-- 11. the slope of the peak exercise ST segment     
+|      		-- 12. number of major vessels (0-3) colored by flourosopy        
+|      		-- 13.  thal: 3 = normal; 6 = fixed defect; 7 = reversable defect     
+|
+|		Attributes types
+|		-----------------
+|		Real: 	1,4,5,8,10,12
+|		Ordered:11,
+|		Binary: 2,6,9
+|		Nominal:7,3,13
+|
+|		Missing values: none
+|
+|CONTACTS
+|	statlog-adm@ncc.up.pt
+|	bob@stams.strathclyde.ac.uk
+|	
+|
+|================================================================================
+|
+
+1,2.
+Age: continuous.
+Sex: continuous.
+ChestPain: continuous.
+RestBP: continuous.
+Cholesterol: continuous.
+BloodSugar: continuous.
+ECG: continuous.
+MaxHeartRate: continuous.
+Angina: continuous.
+OldPeak: continuous.
+STSlope: continuous.
+Vessels: continuous.
+Thal: continuous.

@@ -1,0 +1,21 @@
+Status: discrete: no-account, 0DM, less-200DM, over-200DM.
+Duration: continuous.
+Credit-history: categorical: all-paid-duly,bank-paid-duly,duly-till-now,delay,critical.
+Purpose: categorical: new-car,used-car,furniture,radio-tv,domestic-app,repairs,education,vacation, retraining,business,others.
+Credit: continuous.
+Savings-account: discrete: unknown, less100DM,less500DM,less1000DM,over1000DM.
+Employment: discrete: unemployed,one-year,four-years,seven-years,over-seven.
+Installment-rate: continuous.
+Personal-status: categorical: male-divorced,female-divorced,single-male,married-male,single-female.
+Debtors: categorical: none,co-applicant,guarantor.
+Residence-time: continuous.
+Property: categorical: real-estate,building-society,car,none.
+Age: continuous.
+Installments: categorical: bank,stores,none.
+Housing: categorical: rent,own,free.
+Existing-credits: continuous.
+Job: categorical: unemployed-non-resident,unskilled-resident,skilled,management.
+Liable-people: continuous.
+Telephone: categorical: yes,no.
+Foreign: categorical: yes,no.
+class: categorical: good,bad.

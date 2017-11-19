@@ -1,0 +1,21 @@
+| Local representation
+
+0, 1			|classes
+
+Round head : 0, 1
+Square head : 0, 1
+Octagon head : 0, 1
+Round shape : 0, 1
+Square shape: 0, 1
+Octagon shape: 0,1
+Is smiling: 0, 1
+Not smiling: 0, 1
+Holding sword: 0,1
+Holding balloon: 0,1
+Holding flag: 0,1
+Jacket red: 0,1
+Jacket yellow: 0,1
+Jacket green: 0,1
+Jacket blue: 0,1
+Has tie:0,1
+No tie:0,1

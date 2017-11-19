@@ -1,0 +1,14 @@
+Age:continuous:29.0,77.0.
+Sex:continuous:0.0,1.0.
+ChestPain:continuous:1.0,4.0.
+RestBP:continuous:94.0,200.0.
+Cholesterol:continuous:126.0,564.0.
+BloodSugar:continuous:0.0,1.0.
+ECG:continuous:0.0,2.0.
+MaxHeartRate:continuous:71.0,202.0.
+Angina:continuous:0.0,1.0.
+OldPeak:continuous:0.0,6.2.
+STSlope:continuous:1.0,3.0.
+Vessels:continuous:0.0,3.0.
+Thal:continuous:3.0,7.0.
+class:categorical:1,2.

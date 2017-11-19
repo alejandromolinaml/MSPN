@@ -1,0 +1,11 @@
+Sample code number:continuous:63375.0,461594.0,897321.5,1015851.0,1166278.0,1242021.5,1370870.5,13454352.0.
+Clump Thickness:continuous:1.0,1.5,2.5,4.5,5.5,9.5,10.0.
+Uniformity of Cell Size:continuous:1.0,1.5,8.5,9.5,10.0.
+Uniformity of Cell Shape:continuous:1.0,1.5,8.5,9.5,10.0.
+Marginal Adhesion:continuous:1.0,1.5,4.5,8.5,9.5,10.0.
+Single Epithelial Cell Size:continuous:1.0,1.5,2.5,6.5,8.5,9.5,10.0.
+Bare Nuclei:continuous:1.0,1.5,5.5,7.5,9.5,10.0.
+Bland Chromatin:continuous:1.0,1.5,3.5,5.5,6.5,7.5,9.5,10.0.
+Normal Nucleoli:continuous:1.0,1.5,9.5,10.0.
+Mitoses:continuous:1.0,1.5,3.5,10.0.
+class:categorical:0,1.

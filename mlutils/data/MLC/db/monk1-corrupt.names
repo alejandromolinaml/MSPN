@@ -1,0 +1,9 @@
+|
+yes, no.
+
+head_shape: round, square, octagon.
+body_shape: round, square, octagon.
+is_smiling: yes, no.
+holding: sword, balloon, flag.
+jacket_color: red, green, blue, yellow.
+has_tie: no, yes.

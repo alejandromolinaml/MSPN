@@ -1,0 +1,14 @@
+Age:continuous:29.0,38.5,50.5,69.5,77.0.
+Sex:categorical:0,1.
+Chest pain type:categorical:0,1,2,3.
+Trestbps:continuous:94.0,119.0,121.0,129.0,131.0,153.0,200.0.
+Cholesterol:continuous:126.0,192.5,284.5,341.0,564.0.
+Fasting blood sugar < 120:categorical:0,1.
+Resting ecg:categorical:0,1,2.
+Max heart rate:continuous:71.0,104.0,139.0,183.0,202.0.
+Exercise induced angina:categorical:0,1.
+Oldpeak:continuous:0.0,0.05,2.05,4.3,6.2.
+Slope:categorical:0,1,2.
+Number of vessels colored:continuous:0.0,0.5,3.0.
+Thal:categorical:0,1,2.
+class:categorical:0,1.

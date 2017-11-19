@@ -1,0 +1,9 @@
+MPG: continuous.
+cylinders: discrete.
+cubicInches: continuous.
+horsepower: continuous.
+weightLbs: continuous.
+time-to-sixty: continuous.
+year: continuous.
+brand: categorical.
+class: categorical: US, Japan, Europe.

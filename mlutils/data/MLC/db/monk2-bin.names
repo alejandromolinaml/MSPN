@@ -1,0 +1,14 @@
+| Local representation
+
+0, 1			|classes
+
+Head bit 0: 0, 1
+Head bit 1: 0, 1
+Body bit 0: 0, 1
+Body bit 1: 0, 1
+Is smiling: 0, 1
+Holding bit 0: 0,1
+Holding bit 1: 0, 1
+Jacket bit 0: 0, 1
+Jacket bit 1: 0, 1
+Has tie:0,1

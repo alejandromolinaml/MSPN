@@ -1,0 +1,5 @@
+sepal-length:continuous:4.3,6.95,7.9.
+sepal-width:continuous:2.0,2.65,3.45,4.4.
+petal-length:continuous:1.0,1.25,1.8,3.55,6.9.
+petal-width:continuous:0.1,0.45,1.15,2.5.
+class:categorical:0,1,2.

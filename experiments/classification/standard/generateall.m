@@ -1,0 +1,1 @@
+data = twospirals();dlmwrite ('twospirals.csv', data, ",")data = clusterincluster();dlmwrite ('clusterincluster.csv', data, ",")data = corners();dlmwrite ('corners.csv', data, ",")data = halfkernel();dlmwrite ('halfkernel.csv', data, ",")data = crescentfullmoon();dlmwrite ('crescentfullmoon.csv', data, ",")data = outlier();dlmwrite ('outlier.csv', data, ",")

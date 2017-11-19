@@ -1,0 +1,10 @@
+age:discrete:0,1,2,3,4,5,6,7,8.
+menopause:discrete:0,1,2.
+tumor-size:discrete:0,1,2,3,4,5,6,7,8,9,10,11.
+inv-nodes:discrete:0,1,2,3,4,5,6,7,8,9,10,11,12.
+node-caps:categorical:0,1.
+deg-malig:categorical:0,1,2.
+breast:categorical:0,1.
+breast-quad:categorical:0,1,2,3,4.
+irradiat:categorical:0,1.
+class:categorical:0,1.

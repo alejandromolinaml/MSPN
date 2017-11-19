@@ -1,0 +1,25 @@
+A1:discrete.
+A2:continuous.
+A3:discrete.
+A4:continuous.
+A5:discrete.
+A6:discrete.
+A7:discrete.
+A8:discrete.
+A9:discrete.
+A10:continuous.
+A11:discrete.
+A12:discrete.
+A13: categorical: 1,2.
+A14: categorical: 1,2.
+A15: categorical: 1,2.
+A16: categorical: 0,1.
+A17: categorical: 0,1.
+A18: categorical: 0,1.
+A19: categorical: 0,1.
+A20: categorical: 0,1.
+A21: categorical: 0,1.
+A22: categorical: 0,1.
+A23: categorical: 0,1.
+A24: categorical: 0,1.
+class: categorical: 1,2.

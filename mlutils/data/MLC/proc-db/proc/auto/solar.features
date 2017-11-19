@@ -1,0 +1,13 @@
+A0:categorical:0,1,2,3,4,5.
+A1:categorical:0,1,2,3.
+A2:categorical:0,1.
+A3:categorical:0,1,2.
+A4:categorical:0,1.
+A5:categorical:0,1.
+A6:categorical:0,1.
+A7:categorical:0,1.
+A8:categorical:0,1.
+A9:continuous:0.0,2.0.
+A10:continuous:0.0,4.0.
+A11:continuous:0.0,1.0.
+class:categorical:0,1,2,3,4,5.

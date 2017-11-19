@@ -1,0 +1,26 @@
+normalized-losses:        continuous.
+make: categorical:                    alfa-romero, audi, bmw, chevrolet, dodge, honda,isuzu, jaguar, mazda, mercedes-benz, mercury, mitsubishi, nissan, peugot, plymouth, porsche, renault, saab, subaru, toyota, volkswagen, volvo.
+fuel-type: categorical:               diesel, gas.
+aspiration:            categorical:   std, turbo.
+num-of-doors:    categorical:         four, two.
+body-style:     categorical:          hardtop, wagon, sedan, hatchback, convertible.
+drive-wheels:   categorical:          4wd, fwd, rwd.
+engine-location:   categorical:       front, rear.
+wheel-base:               continuous.
+length:                   continuous.
+width:                    continuous.
+height:                   continuous.
+curb-weight:              continuous.
+engine-type:    categorical:          dohc, dohcv, l, ohc, ohcf, ohcv, rotor.
+num-of-cylinders:  categorical:       eight, five, four, six, three, twelve, two.
+engine-size:              continuous.
+fuel-system: categorical:             1bbl, 2bbl, 4bbl, idi, mfi, mpfi, spdi, spfi.
+bore:                     continuous.
+stroke:                   continuous.
+compression-ratio:        continuous.
+horsepower:               continuous.
+peak-rpm:                 continuous.
+city-mpg:                 continuous.
+highway-mpg:              continuous.
+price:                    continuous.
+symbol: discrete: -3, -2, -1, 0, 1, 2, 3.

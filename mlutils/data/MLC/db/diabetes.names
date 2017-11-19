@@ -1,0 +1,138 @@
+| .names file created by George John, October 1994
+| This data seems to be the same as the irvine pima database.
+| See the diabetes.irvinediff file for the differences.  They all seem
+| to be formatting differences (eg 0.1 vs 0.100).
+|
+|1. TITLE
+|	Pima Indians Diabetes Database
+|
+|2. USE IN STATLOG
+|	2.1- Testing Mode	
+|		12 Fold Cross-Validation
+|
+|	2.2- Special PreProcessing
+|		
+|	2.3- Test Results
+|
+|				Success Rate	TIME
+|		Algorithm	Train	Test	Train	Test
+|		--------------------------------------------	
+|		LogDisc		78.09	77.700	31	7
+|		Dipol92		?	77.600
+|		Discrim		78.01	77.500	27.3	6
+|		Smart		82.27	76.800	314	?
+|		Radial		?	75.700
+|		Itrule		?	75.500
+|		BackProp	?	75.200
+|		Cal5		76.8	75.000	40	1
+|		Cart		77.31	74.500	61	2
+|		Castle		73.97	74.200	29	4
+|		QuaDisc		76.28	73.800	24	6
+|		Bayes		76.07	73.800	2	1
+|		C4.5		86.92	73.000	12	1
+|		IndCart		92.14	72.900	18	17
+|		BayTree		?	72.900
+|		LVQ		?	72.800
+|		Kohonen		?	72.700
+|		Ac2		100	72.400	648	29
+|		NewId		100	71.100	10	10
+|		Cn2		98.98	71.100	38	3
+|		Alloc80		71.24	69.900	115	?
+|		KNN		100	67.600	1	2
+|		Default		?	65.000
+|		Cascade		?	0.00
+|
+|		
+|3. SOURCES and PAST USAGE
+|	3.1 SOURCES
+|   		(a) Original owners: National Institute of Diabetes and Digestive and
+|                        Kidney Diseases
+|   		(b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)
+|                          Research Center, RMI Group Leader
+|                          Applied Physics Laboratory
+|                          The Johns Hopkins University
+|                          Johns Hopkins Road
+|                          Laurel, MD 20707
+|                          (301) 953-6231
+|   		(c) Date received: 9 May 1990
+|
+|	3.2 Past Usage:
+|    		1. Smith,J.W., Everhart,J.E., Dickson,W.C., Knowler,W.C., \&
+|       		Johannes,R.S. (1988). Using the ADAP learning algorithm to forecast
+|      		 the onset of diabetes mellitus.  In "Proceedings of the Symposium
+|       		on Computer Applications and Medical Care" (pp. 261--265).  IEEE
+|       		Computer Society Press.
+|
+|       		The diagnostic, binary-valued variable investigated is whether the
+|       		patient shows signs of diabetes according to World Health Organization
+|       		criteria (i.e., if the 2 hour post-load plasma glucose was at least 
+|       		200 mg/dl at any survey  examination or if found during routine medical
+|       		care).   The population lives near Phoenix, Arizona, USA.
+|
+|       		Results: Their ADAP algorithm makes a real-valued prediction between
+|       		0 and 1.  This was transformed into a binary decision using a cutoff of 
+|       		0.448.  Using 576 training instances, the sensitivity and specificity
+|       		of their algorithm was 76% on the remaining 192 instances.
+|
+|	4. DATASET DESCRIPTION
+|
+|		NUMBER of EXAMPLES:	768
+|
+|		NUMBER of CLASSES:	2
+|			1, 2		
+|			(class value 1 is interpreted as "tested positive for
+|   				diabetes")
+|			Class Distribution: 
+|	   			Class Value  Number of instances
+|   				1            500 (65.1%)
+|   				2            268 (34.9%)
+|
+|		NUMBER of ATTRIBUTES: 8
+|	
+|   			1. Number of times pregnant
+|   			2. Plasma glucose concentration a 2 hours in an oral
+|				 glucose tolerance test
+|   			3. Diastolic blood pressure (mm Hg)
+|   			4. Triceps skin fold thickness (mm)
+|   			5. 2-Hour serum insulin (mu U/ml)
+|   			6. Body mass index (weight in kg/(height in m)^2)
+|   			7. Diabetes pedigree function
+|   			8. Age (years)
+|
+|		Brief statistical analysis:
+|
+|    		Attribute number:    Mean:   Standard Deviation:
+|    		1.                     3.8     3.4
+|    		2.                   120.9    32.0
+|    		3.                    69.1    19.4
+|    		4.                    20.5    16.0
+|    		5.                    79.8   115.2
+|    		6.                    32.0     7.9
+|    		7.                     0.5     0.3
+|    		8.                    33.2    11.8
+|
+|		Missing Attribute Values: None
+|
+|   	
+|	Relevant Information:
+|      		Several constraints were placed on the selection of these instances 
+|		from a larger database.  In particular, all patients here are females 
+|		at least 21 years old of Pima Indian heritage.  
+|		ADAP is an adaptive learning routine that generates and executes 
+|		digital analogs of perceptron-like devices.  It is a unique algorithm;
+|		see the paper for details.
+|
+|CONTACTS
+|	statlog-adm@ncc.up.pt
+|	bob@stams.strathclyde.ac.uk
+|	
+
+1,2.
+A1: continuous.
+A2: continuous.
+A3: continuous.
+A4: continuous.
+A5: continuous.
+A6: continuous.
+A7: continuous.
+A8: continuous.

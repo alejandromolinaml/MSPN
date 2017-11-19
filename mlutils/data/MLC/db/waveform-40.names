@@ -1,0 +1,82 @@
+| 1. Title: Waveform Database Generator (written in C)
+|
+| 2. Source:
+|    (a) Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984).
+|        Classification and Regression Trees.  Wadsworth International
+|        Group: Belmont, California.  (see pages 43-49).
+|    (b) Donor: David Aha
+|    (c) Date: 11/10/1988
+|
+| 3. Past Usage:
+|      1. CART book (above):
+|         -- Optimal Bayes classification rate: 86% accuracy
+|         -- CART decision tree algorithm: 72%
+|         -- Nearest Neighbor Algorithm: 38%
+|            -- 300 training and 5000 test instances
+|
+| 4. Relevant Information:
+|      -- 3 classes of waves
+|      -- 40 attributes, all of which include noise
+|         -- The latter 19 attributes are all noise attributes with mean 0
+|            and variance 1
+|      -- See the book for details (49-55, 169)
+|
+| 5. Number of Instances: chosen by user
+|
+| 6. Number of Attributes:
+|     -- 40 attributes with continuous values between 0 and 6
+|
+| 7. Attribute Information:
+|     -- Each class is generated from a combination of 2 of 3 "base" waves
+|     -- Each instance is generated f added noise (mean 0, variance 1) in
+|        each attribute
+|      -- See the book for details (49-55, 169)
+|
+| 8. Missing Attribute Values: none
+|
+| 9. Class Distribution: 33% for each of 3 classes
+|
+
+
+0,1,2
+
+X00 : continuous.
+X01 : continuous.
+X02 : continuous.
+X03 : continuous.
+X04 : continuous.
+X05 : continuous.
+X06 : continuous.
+X07 : continuous.
+X08 : continuous.
+X09 : continuous.
+X10 : continuous.
+X11 : continuous.
+X12 : continuous.
+X13 : continuous.
+X14 : continuous.
+X15 : continuous.
+X16 : continuous.
+X17 : continuous.
+X18 : continuous.
+X19 : continuous.
+X20 : continuous.
+X21 : continuous.
+X22 : continuous.
+X23 : continuous.
+X24 : continuous.
+X25 : continuous.
+X26 : continuous.
+X27 : continuous.
+X28 : continuous.
+X29 : continuous.
+X30 : continuous.
+X31 : continuous.
+X32 : continuous.
+X33 : continuous.
+X34 : continuous.
+X35 : continuous.
+X36 : continuous.
+X37 : continuous.
+X38 : continuous.
+X39 : continuous.

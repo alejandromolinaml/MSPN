@@ -1,0 +1,136 @@
+| .names file created by George John, October 1994
+|
+|1. TITLE: 
+|	Letter Image Recognition Data 
+|
+|   The objective is to identify each of a large number of black-and-white
+|   rectangular pixel displays as one of the 26 capital letters in the English
+|   alphabet.  The character images were based on 20 different fonts and each
+|   letter within these 20 fonts was randomly distorted to produce a file of
+|   20,000 unique stimuli.  Each stimulus was converted into 16 primitive
+|   numerical attributes (statistical moments and edge counts) which were then
+|   scaled to fit into a range of integer values from 0 through 15.  We
+|   typically train on the first 16000 items and then use the resulting model
+|   to predict the letter category for the remaining 4000.  See the article
+|   cited above for more details.
+|
+|2.USE IN STATLOG
+|	2.1 Testing Mode
+|		Train and Test
+|
+|	2.2 Special PreProcessing
+|		No
+|	
+|	2.3 Test Results
+|				Success Rate
+|		Algorithm	Test	
+|		----------------------------	
+|		Alloc80		93.600
+|		KNN		93.000
+|		LVQ		92.100
+|		QuaDisc		88.700
+|		Cn2		88.500
+|		BayTree		87.600
+|		NewId		87.200
+|		IndCart		87.000
+|		C4.5		86.800
+|		Dipol92		82.400
+|		Radial		76.700
+|		LogDisc		76.600
+|		Ac2		75.500
+|		Castle		75.500
+|		Kohonen		74.800
+|		Cal5		74.700
+|		Smart		70.500
+|		Discrim		69.800
+|		BackProp	67.30
+|		Bayes		47.100
+|		Itrule		40.600
+|		Default		4.000
+|		Cascade		0.0
+|		Cart		0.000
+|
+|3. SOURCE Information and Paste Usage
+|	3.1 Source
+|   		-- Creator: David J. Slate
+|     		-- Odesta Corporation; 1890 Maple Ave; Suite 115; Evanston, IL 60201
+|   		-- Donor: David J. Slate (dave@math.nwu.edu) (708) 491-3867   
+|   		-- Date: January, 1991
+|
+|	3.2 Past Usage:
+|   	-- P. W. Frey and D. J. Slate (Machine Learning Vol 6 #2 March 91):
+|	"Letter Recognition Using Holland-style Adaptive Classifiers".
+|
+|   	The research for this article investigated the ability of several
+|	variations of Holland-style adaptive classifier systems to learn to
+|	correctly guess the letter categories associated with vectors of 16
+|	integer attributes extracted from raster scan images of the letters.
+|	The best accuracy obtained was a little over 80%.  It would be
+|	interesting to see how well other methods do with the same data.
+|
+|
+|4. DATASET DESCRIPTION
+|	Number of Instances: 
+|		20000
+|		Train	15000
+|		Test	 5000
+|
+|	Number of Attributes: 
+|		16 (numeric features)
+|
+|	NUMBER of CLASSES : 26 
+|		capital letter	(26 values from A to Z)
+|		
+|		Class Distribution:
+| 		789 A	   766 B     736 C     805 D	 768 E	   775 F     773 G
+| 		734 H	   755 I     747 J     739 K	 761 L	   792 M     783 N
+| 		753 O	   803 P     783 Q     758 R	 748 S	   796 T     813 U
+| 		764 V	   752 W     787 X     786 Y	 734 Z
+|
+|	Attribute Information:
+|
+|	 	1.	x-box	horizontal position of box	(integer)
+|	 	2.	y-box	vertical position of box	(integer)
+|	 	3.	width	width of box			(integer)
+|	 	4.	high 	height of box			(integer)
+|	 	5.	onpix	total # on pixels		(integer)
+|	 	6.	x-bar	mean x of on pixels in box	(integer)
+|	 	7.	y-bar	mean y of on pixels in box	(integer)
+|	 	8.	x2bar	mean x variance			(integer)
+|		9.	y2bar	mean y variance			(integer)
+|		10.	xybar	mean x y correlation		(integer)
+|		11.	x2ybr	mean of x * x * y		(integer)
+|		12.	xy2br	mean of x * y * y		(integer)
+|		13.	x-ege	mean edge count left to right	(integer)
+|		14.	xegvy	correlation of x-ege with y	(integer)
+|		15.	y-ege	mean edge count bottom to top	(integer)
+|		16.	yegvx	correlation of y-ege with x	(integer)
+| 
+|		Missing Attribute Values: None
+|
+|CONTACTS
+|	statlog-adm@ncc.up.pt
+|	bob@stams.strathclyde.ac.uk
+|	
+|
+|================================================================================
+
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26.
+x-box: continuous.
+y-box: continuous.
+width: continuous.
+high : continuous.
+onpix: continuous.
+x-bar: continuous.
+y-bar: continuous.
+x2bar: continuous.
+y2bar: continuous.
+xybar: continuous.
+x2ybr: continuous.
+xy2br: continuous.
+x-ege: continuous.
+xegvy: continuous.
+y-ege: continuous.
+yegvx: continuous.
+
+

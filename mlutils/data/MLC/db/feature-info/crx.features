@@ -1,0 +1,16 @@
+A1:	categorical: b,a.
+A2:	continuous.
+A3:	continuous.
+A4:	categorical: u, y, l, t.
+A5:	categorical: g, p, gg.
+A6:	categorical: c, d, cc, i, j, k, m, r, q, W, x, e, aa, ff.
+A7:	categorical: v, h, bb, j, n, z, dd, ff, o.
+A8:	continuous.
+A9:	categorical: t,f.
+A10:	categorical: t,f.
+A11:	continuous.
+A12:	categorical: t,f.
+A13:	categorical: g, p, s.
+A14:	continuous.
+A15:	continuous.
+class: categorical: yes, no.

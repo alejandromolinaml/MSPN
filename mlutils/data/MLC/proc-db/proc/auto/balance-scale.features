@@ -1,0 +1,5 @@
+Left-Weight:continuous:1.0,1.4,1.8,2.2,2.6,3.0,3.4,3.8,4.2,4.6,5.0.
+Left-Distance:continuous:1.0,1.4,1.8,2.2,2.6,3.0,3.4,3.8,4.2,4.6,5.0.
+Right-Weight:continuous:1.0,1.4,1.8,2.2,2.6,3.0,3.4,3.8,4.2,4.6,5.0.
+Right-Distance:continuous:1.0,1.4,1.8,2.2,2.6,3.0,3.4,3.8,4.2,4.6,5.0.
+class:categorical:0,1,2.

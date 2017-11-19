@@ -1,0 +1,16 @@
+A1:categorical:b,a.
+A2:continuous:13.75,76.75.
+A3:continuous:0.0,28.0.
+A4:categorical:u,y,l,t.
+A5:categorical:g,p,gg.
+A6:categorical:c,d,cc,i,j,k,m,r,q,W,x,e,aa,ff.
+A7:categorical:v,h,bb,j,n,z,dd,ff,o.
+A8:continuous:0.0,28.5.
+A9:categorical:t,f.
+A10:categorical:t,f.
+A11:continuous:0.0,67.0.
+A12:categorical:t,f.
+A13:categorical:g,p,s.
+A14:continuous:0.0,2000.0.
+A15:continuous:0.0,100000.0.
+class:categorical:yes,no.

@@ -1,0 +1,10 @@
+Refractive Index:		continuous.
+Sodium:				continuous.
+Magnesium:			continuous.
+Aluminum:			continuous.
+Silicon:			continuous.
+Potassium:			continuous.
+Calcium:			continuous.
+Barium:				continuous.
+Iron:				continuous.
+class: categorical: float_processed, non_float_processed.

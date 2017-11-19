@@ -1,0 +1,85 @@
+| LED 25 names file.
+| Created by YeoGirl Yun
+| Date : 5/14/94
+| The .all file is created using the following command:
+|  led-creator24 3200 93284 led24.all 10
+| The .data contains the first 200 elements.
+|
+| This data file is created using AHA's led creator program.
+| Here is the relevant document from AHA
+|
+|------------------------------------------------------------------------------
+|
+|1. Title of Database: LED display domain + 17 irrelevant attributes
+|
+|2. Sources:
+|   (a) Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984). 
+|       Classification and Regression Trees.  Wadsworth International
+|       Group: Belmont, California.  (see pages 43-49).
+|   (b) Donor: David Aha 
+|   (c) Date: 11/10/1988
+|
+|3. Past Usage: (many)
+|     1. CART book (above):
+|        -- Optimal Bayes classification rate: 74%
+|        -- CART decision tree algorithm: 70%
+|           -- 200 training and 5000 test instances
+|        -- nearest neighbor algorithm: 41%
+|     2. Aha,D.W., & Kibler,D. (1988). Unpublished data.
+|        -- NTgrowth+ instance-based learning algorithm: (500 test instances)
+|           -- 700 training instances: 70.7%
+|           -- 1000 training instances: 71.5%
+|
+|4. Relevant Information Paragraph:
+|     See the file names create-led.names.  This is an extension of the
+|     LED display problem, but an additional 17 irrelevant attributes
+|     are added to the instance space.  Their values are randomly
+|     assigned the values 0 or 1.  Not an easy problem!
+|
+|5. Number of Instances: chosen by the user.
+|
+|6. Number of Attributes: 24 (all Boolean-valued)
+|
+|7. Attribute Information:
+|   -- All attribute values are either 0 or 1, according to whether
+|      the corresponding light is on or not for the decimal digit.
+|   -- Each attribute (excluding the class attribute, which is an
+|      integer ranging between 0 and 9 inclusive) has a 10% percent
+|      chance of being inverted.
+|
+|8. Missing Attribute Values: None
+|
+|9. Class Distribution: 10% (Theoretical)
+|   -- Each concept (digit) has the same theoretical probability
+|      distribution.  The program randomly selects the attribute.
+|
+|------------------------------------------------------------------------------
+
+0,1,2,3,4,5,6,7,8,9. | classes
+
+attribute#1 : 0,1.
+attribute#2 : 0,1.
+attribute#3 : 0,1.
+attribute#4 : 0,1.
+attribute#5 : 0,1.
+attribute#6 : 0,1.
+attribute#7 : 0,1.
+irrelevant1 : 0,1.
+irrelevant2 : 0,1.
+irrelevant3 : 0,1.
+irrelevant4 : 0,1.
+irrelevant5 : 0,1.
+irrelevant6 : 0,1.
+irrelevant7 : 0,1.
+irrelevant8 : 0,1.
+irrelevant9 : 0,1.
+irrelevant10 : 0,1.
+irrelevant11 : 0,1.
+irrelevant12 : 0,1.
+irrelevant13 : 0,1.
+irrelevant14 : 0,1.
+irrelevant15 : 0,1.
+irrelevant16 : 0,1.
+irrelevant17 : 0,1.
+
+

@@ -1,0 +1,21 @@
+| zoo.small -- same as zoo but with only the important features
+
+|    3. feathers		Boolean
+|    5. milk		Boolean
+|    6. airborne		Boolean
+|    8. predator		Boolean
+|   10. backbone		Boolean
+|   13. fins		Boolean
+|   14. legs		Numeric (set of values: {0,2,4,5,6,8})
+|   15. tail		Boolean
+
+1, 2, 3, 4, 5, 6, 7.	| classes ("type")
+
+	feathers:	0, 1.
+	milk:		0, 1.
+	airborne:	0, 1.
+	predator:	0, 1.
+	backbone:	0, 1.
+	fins:		0, 1.
+	legs:		0, 2, 4, 5, 6, 8.
+	tail:		0, 1.

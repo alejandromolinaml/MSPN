@@ -1,0 +1,21 @@
+#
+# generate augmented dataset
+ipython -- experiments/mnist/augmenting_mnist.py --ae-dir ./mlutils/ae -o exp/mnist-priv-info/16d+semantics/ --label-rules vert-stroke circle curve-left curve-right hori-stroke double-curve --bins auto
+
+#
+# learning spns
+ipython --  bin/learnspn.py  aug.raelk  --data-dir exp/mnist-priv-info/16d+semantics/    -v 2    --seed 1337  --row-split rdc-kmeans --row-split-args "ohe=0,n_clusters=2"  --col-split rdc --col-split-args "threshold=0.15,ohe=0,linear=1"  --min-inst-slice 200  --alpha 1  --leaf piecewise  -o exp/mnist-priv-info/16d+semantics/spn/piecewise
+
+ipython --  bin/learnspn.py  aug.raelk  --data-dir exp/mnist-priv-info/16d+semantics/    -v 2    --seed 1337  --row-split rdc-kmeans --row-split-args "ohe=0,n_clusters=2"  --col-split rdc --col-split-args "threshold=0.15,ohe=0,linear=1"  --min-inst-slice 200  --alpha 1  --leaf histogram  -o exp/mnist-priv-info/16d+semantics/spn/histogram
+
+ipython --  bin/learnspn.py  aug.raelk  --data-dir exp/mnist-priv-info/16d+semantics/    -v 2    --seed 1337  --row-split rdc-kmeans --row-split-args "ohe=0,n_clusters=2"  --col-split rdc --col-split-args "threshold=0.15,ohe=0,linear=1"  --min-inst-slice 200  --alpha 1  --leaf isotonic  -o exp/mnist-priv-info/16d+semantics/spn/isotonic
+
+#
+#
+# mnist visualizing
+ipython --  bin/mnist_vis.py  aug.raelk  --exp-id 0  --data-dir exp/mnist-priv-info/16d+semantics/  -v 2  --spn exp/mnist-priv-info/16d+semantics/spn/piecewise/aug.raelk/None/spn.0.pklz  --emb-features 16  --aug-features 5  --ae-path  ./mlutils/ae    -o exp/mnist-priv-info/16d+semantics/spn/piecewise/vis/ --all-worlds --mpe-embeddings --samples 64 --filter-samples-prob 16
+
+ipython --  bin/mnist_vis.py  aug.raelk  --exp-id 0  --data-dir exp/mnist-priv-info/16d+semantics/  -v 2  --spn exp/mnist-priv-info/16d+semantics/spn/histogram/aug.raelk/None/spn.0.pklz  --emb-features 16  --aug-features 5  --ae-path  ./mlutils/ae    -o exp/mnist-priv-info/16d+semantics/spn/histogram/vis/ --all-worlds --mpe-embeddings --samples 64
+
+ipython --  bin/mnist_vis.py  aug.raelk  --exp-id 0  --data-dir exp/mnist-priv-info/16d+semantics/  -v 2  --spn exp/mnist-priv-info/16d+semantics/spn/isotonic/aug.raelk/None/spn.0.pklz  --emb-features 16  --aug-features 5  --ae-path  ./mlutils/ae    -o exp/mnist-priv-info/16d+semantics/spn/isotonic/vis/ --all-worlds --mpe-embeddings --samples 64
+

@@ -1,0 +1,11 @@
+Sample code number:continuous:63375.0,13454352.0.
+Clump Thickness:continuous:1.0,10.0.
+Uniformity of Cell Size:continuous:1.0,10.0.
+Uniformity of Cell Shape:continuous:1.0,10.0.
+Marginal Adhesion:continuous:1.0,10.0.
+Single Epithelial Cell Size:continuous:1.0,10.0.
+Bare Nuclei:continuous:1.0,10.0.
+Bland Chromatin:continuous:1.0,10.0.
+Normal Nucleoli:continuous:1.0,10.0.
+Mitoses:continuous:1.0,10.0.
+class:categorical:benign,malignant.

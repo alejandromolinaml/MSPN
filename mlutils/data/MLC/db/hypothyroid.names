@@ -1,0 +1,100 @@
+| Converted to machine-readable form by Brian Frasca (6/13/94).
+|           General Description of Thyroid Disease Databases 
+|                         and Related Files
+| 
+| This directory contains 6 databases, corresponding test set, and 
+| corresponding documentation.  They were left at the University of
+| California at Irvine by Ross Quinlan during his visit in 1987 for
+| the 1987 Machine Learning Workshop.  
+| 
+| The documentation files (with file extension "names") are formatted to
+| be read by Quinlan's C4 decision tree program.  Though briefer than
+| the other documentation files found in this database repository, they
+| should suffice to describe the database, specifically:
+| 
+|     1. Source
+|     2. Number and names of attributes (including class names)
+|     3. Types of values that each attribute takes
+| 
+| In general, these databases are quite similar and can be characterized
+| somewhat as follows:
+| 
+|     1. Many attributes (29 or so, mostly the same set over all the databases)
+|     2. mostly numeric or Boolean valued attributes
+|     3. thyroid disease domains (records provided by the Garavan Institute
+|        of Sydney, Australia)
+|     4. several missing attribute values (signified by "?")
+|     5. small number of classes (under 10, changes with each database)
+|     7. 2800 instances in each data set
+|     8. 972 instances in each test set (It seems that the test sets' instances
+|        are disjoint with respect to the corresponding data sets, but this has 
+|        not been verified)
+| 
+| See the following for a discussion of relevant experiments and related work:
+|    Quinlan,J.R., Compton,P.J., Horn,K.A., & Lazurus,L. (1986).
+|    Inductive knowledge acquisition: A case study.
+|    In Proceedings of the Second Australian Conference on Applications
+|    of Expert Systems.  Sydney, Australia.
+| 
+|    Quinlan,J.R. (1986). Induction of decision trees. Machine Learning,
+|    1, 81--106.
+| 
+| Note that the instances in these databases are followed by a vertical
+| bar and a number.  These appear to be a patient id number.  The vertical
+| bar is interepreted by Quinlan's algorithms as "ignore the remainder of
+| this line". 
+| 
+| ======================================================================
+| This database now also contains an additional two data files, named 
+| hypothyroid.data and sick-euthyroid.data.  They have approximately the
+| same data format and set of attributes as the other 6 databases, but
+| their integrity is questionable.  Ross Quinlan is concerned that they
+| may have been corrupted since they first arrived at UCI, but we have not
+| yet established the validity of this possibility.  These 2 databases differ
+| in terms of their number of instances (3163) and lack of corresponding 
+| test files.  They each have 2 concepts (negative/hypothyroid and 
+| sick-euthyroid/negative respectively).  Their source also appears to
+| be the Garavan institute.  Each contains several missing values.
+| 
+| Another relatively recent file thyroid0387.data has been added that 
+| contains the latest version of an archive of thyroid diagnoses obtained 
+| from the Garvan Institute, consisting of 9172 records from 1984 to early 1987.
+| 
+| A domain theory related to thyroid desease has also been added recently 
+| (thyroid.theory).
+| 
+| The files new-thyroid.[names,data] were donated by Stefan Aberhard.
+
+
+
+
+
+
+hypothyroid, negative.
+
+age:				 continuous.
+sex:				 M,F.
+on_thyroxine:			 f,t.
+query_on_thyroxine:		 f,t.
+on_antithyroid_medication:	 f,t.
+thyroid_surgery:		 f,t.
+query_hypothyroid:		 f,t.
+query_hyperthyroid:		 f,t.
+pregnant:			 f,t.
+sick:				 f,t.
+tumor:				 f,t.
+lithium:			 f,t.
+goitre:				 f,t.
+TSH_measured:			 y,n.
+TSH:				 continuous.
+T3_measured:			 y,n.
+T3:				 continuous.
+TT4_measured:			 y,n
+TT4:				 continuous.
+T4U_measured:			 y,n.
+T4U:				 continuous.
+FTI_measured:			 y,n.
+FTI:				 continuous.
+TBG_measured:			 y,n.
+TBG:				 continuous.
+

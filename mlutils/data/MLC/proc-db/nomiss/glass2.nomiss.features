@@ -1,0 +1,10 @@
+Refractive Index:continuous:1.51215,1.53393.
+Sodium:continuous:10.73,14.86.
+Magnesium:continuous:0.0,4.49.
+Aluminum:continuous:0.29,2.12.
+Silicon:continuous:69.81,74.45.
+Potassium:continuous:0.0,1.1.
+Calcium:continuous:7.08,16.19.
+Barium:continuous:0.0,3.15.
+Iron:continuous:0.0,0.37.
+class:categorical:float_processed,non_float_processed.

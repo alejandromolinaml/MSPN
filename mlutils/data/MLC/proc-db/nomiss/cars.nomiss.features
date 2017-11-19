@@ -1,0 +1,9 @@
+MPG:continuous:9.0,46.6.
+cylinders:continuous:3.0,8.0.
+cubicInches:continuous:68.0,455.0.
+horsepower:continuous:46.0,230.0.
+weightLbs:continuous:1613.0,5140.0.
+time-to-sixty:continuous:8.0,25.0.
+year:continuous:1971.0,1983.0.
+brand:categorical:chevrolet,vw,ford,cadillac,plymouth,mercedes,toyota,audi,oldsmobile,dodge,buick,datsun,amc,bmw,honda,subaru,mazda,mercury,pontiac,peugeot,opel,fiat,chrysler,saab,volvo,renault,hi,capri,nissan,triumph.
+class:categorical:US,Japan,Europe.

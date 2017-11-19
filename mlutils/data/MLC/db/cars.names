@@ -1,0 +1,19 @@
+| carmodels.data
+| from http://www.stat.cmu.edu/datasets
+| By Barry Becker and Ronny Kohavi, Silicon Graphics
+| 9    - variables (removed model)
+| 392   - instances
+
+US, Japan, Europe
+
+MPG: continuous.
+cylinders: continuous.
+cubicInches: continuous.
+horsepower: continuous.
+weightLbs: continuous.
+time-to-sixty: continuous.
+year: continuous.
+brand: discrete.
+
+
+

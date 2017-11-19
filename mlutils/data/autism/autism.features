@@ -1,0 +1,28 @@
+Gender:categorical.
+IQ:continuous.
+Age diagnosis:continuous.
+Openness about Diagnosis:categorical.
+Success selfrating:continuous.
+Well being:categorical.
+Integration in Society:categorical.
+No of family members with autism:discrete.
+No of Comorbidities:discrete.
+No of Physical Problems:discrete.
+No of Treatments:discrete.
+No of Medications:discrete.
+No of Care Units:discrete.
+Type of Housing:categorical.
+No of unfinished Educations:discrete.
+Type of work:categorical.
+Workinghours:continuous.
+No of Interests:discrete.
+No of Social Contacts:discrete.
+Good Characteristics due to Autism:discrete.
+No of Transition Problems:discrete.
+Satisfaction Treatment:continuous.
+Satisfaction Medication:continuous.
+Satisfaction Care:continuous.
+Satisfaction Education:continuous.
+Satisfaction Work:continuous.
+Satisfaction Social Contacts:categorical.
+Age:continuous.

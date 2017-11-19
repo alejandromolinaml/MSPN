@@ -1,0 +1,38 @@
+| ======================================================================
+| Modified by Brian Frasca (6/13/94) - Last attribute deleted to give a
+|	two-class problem as suggested by Holte.
+|
+| John Gennari
+| 3/13/90
+|
+| This is Dr. Detrano's database modified to be a real MIXED dataset.
+|
+| Attributes: 8 symbolic, 6 numeric.
+|  Age; sex; chest pain type (angina, abnang, notang, asympt)
+|  Trestbps (resting blood pres); cholesterol; fasting blood sugar < 120
+|  (true or false); resting ecg (norm, abn, hyper); max heart rate;
+|  exercise induced angina (true or false); oldpeak; slope (up, flat, down)
+|  number of vessels colored (???); thal (norm, fixed, rever). Finally, the
+|  class is either healthy (buff) or with heart-disease (sick).
+|
+| Original atts:
+|   age; sex (1,0); cp (1-4); trestbps; chol; fbs (1,0); restecg (0,1,2);
+|   thalach; exang (1,0); oldpeak; slope (1,2,3); ca; thal (3,6,7);
+|   class att: 0 is healthy, 1,2,3,4 is sick.
+| ======================================================================
+
+buff, sick
+
+Age: continuous
+Sex: male, fem
+Chest pain type: angina, abnang, notang, asympt
+Trestbps: continuous
+Cholesterol: continuous
+Fasting blood sugar < 120: true, fal
+Resting ecg: norm, abn, hyp
+Max heart rate: continuous
+Exercise induced angina: true, fal
+Oldpeak: continuous
+Slope: up, flat, down
+Number of vessels colored: continuous
+Thal: norm, fix, rev

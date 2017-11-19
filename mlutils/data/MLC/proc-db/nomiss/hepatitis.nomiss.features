@@ -1,0 +1,20 @@
+AGE:continuous:20.0,72.0.
+SEX:categorical:1,2.
+STEROID:categorical:1,2.
+ANTIVIRALS:categorical:1,2.
+FATIGUE:categorical:1,2.
+MALAISE:categorical:1,2.
+ANOREXIA:categorical:1,2.
+LIVER BIG:categorical:1,2.
+LIVER FIRM:categorical:1,2.
+SPLEEN PALPABLE:categorical:1,2.
+SPIDERS:categorical:1,2.
+ASCITES:categorical:1,2.
+VARICES:categorical:1,2.
+BILIRUBIN:continuous:0.3,4.8.
+ALK PHOSPHATE:continuous:26.0,280.0.
+SGOT:continuous:14.0,420.0.
+ALBUMIN:continuous:2.1,5.0.
+PROTIME:continuous:0.0,100.0.
+HISTOLOGY:categorical:1,2.
+class:categorical:1,2.

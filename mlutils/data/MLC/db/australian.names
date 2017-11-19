@@ -1,0 +1,181 @@
+| .names file created by George John, October 1994
+| This data is ALMOST the same as the original crx dataset Quinlan
+| used in C4.5, but 
+| * missing values have been replaced with the medians,
+|   which is unfair to the algorithms that can deal
+|   with missing data well.  Replacing an attribute by its mean/median
+|   value is known to be one of the poorest methods of handling missing values.
+| * attribute 4 is removed (I checked -- in the entire dataset atts 4 and 5
+|   were completely correlated)
+| * categorical attribute values are numbered in increasing likelihood
+|   of being class + and treated  as numeric in the statlog tests.
+|   Strange.
+|
+|1. TITLE: 
+|	Australian Credit Approval
+|
+|2. USE IN STATLOG
+|
+|	2.1- Testing Mode		
+|		10-Fold Cross Validation
+|
+|	2.2- Special Preprocessing	
+|		Yes (See REMARKS)
+|
+|	2.3- Test Results
+|
+|		Algorithm	Success Rate
+|		---------	------------
+|		Cal5		86.900
+|		Itrule		86.300
+|		LogDisc		85.900
+|		Discrim		85.900
+|		Dipol92		85.900
+|		Radial		85.500
+|		Cart		85.500
+|		Castle		85.200
+|		Bayes		84.900
+|		IndCart		84.800
+|		BackProp	84.600
+|		C4.5		84.500
+|		Smart		84.200
+|		BayTree		82.900
+|		KNN		81.900
+|		Ac2		81.900
+|		NewId		81.900
+|		LVQ		80.300
+|		Alloc80		79.900
+|		Cn2		79.600
+|		QuaDisc		79.300
+|		Default		56.000
+|		Cascade		0.000
+|		Kohonen		0.000
+|
+|3. SOURCES and PAST USAGE
+|  
+|   	3.1 ORIGINAL SOURCE
+|    		(confidential)
+|    		Submitted by quinlan@cs.su.oz.au
+|
+|	3.2 PAST USAGE
+|	   See Quinlan,
+|    	     * "Simplifying decision trees", Int J Man-Machine Studies 27,
+|      	   Dec 1987, pp. 221-234.
+|   	     * "C4.5: Programs for Machine Learning", Morgan Kaufmann, Oct 1992
+|  
+|	3.2.  RELEVANT INFORMATION
+|
+|    	This file concerns credit card applications.  All attribute names
+|    	and values have been changed to meaningless symbols to protect
+|    	confidentiality of the data.
+|  
+|    	This dataset is interesting because there is a good mix of
+|    	attributes -- continuous, nominal with small numbers of
+|    	values, and nominal with larger numbers of values.  There
+|    	were originally a few missing values, but these have all
+|    	been replaced by the overall median.
+|
+|4. DATASET DESCRIPTION 
+|   
+|   	NUMBER OF EXAMPLES
+|		Total no. =  690
+|   	NUMBER OF CLASSES: 2
+|	    	0,1 (-,+)
+|
+|  		Class Distribution: 
+|    		+: 307 (44.5%)    CLASS 1
+|    		-: 383 (55.5%)    CLASS 0
+|
+|   	NUMBER OF ATTRIBUTES
+|	 	14  (6 Continuous 8 Categorical)
+|
+|    	A1:	0,1    CATEGORICAL
+|        	a,b
+|    	A2:	continuous.
+|    	A3:	continuous.
+|    	A4:	1,2,3         CATEGORICAL
+|        	p,g,gg
+|    	A5:	1, 2,3,4,5, 6,7,8,9,10,11,12,13,14    CATEGORICAL
+|           	ff,d,i,k,j,aa,m,c,w, e, q, r,cc, x 
+|         
+|    	A6:	 1, 2,3, 4,5,6,7,8,9    CATEGORICAL
+|        	ff,dd,j,bb,v,n,o,h,z 
+|
+|    	A7:	continuous.
+|    	A8:	1, 0       CATEGORICAL
+|        	t, f.
+|    	A9: 	1, 0	    CATEGORICAL
+|        	t, f.
+|    	A10:	continuous.
+|    	A11:  	1, 0	    CATEGORICAL
+|          	t, f.
+|    	A12:    1, 2, 3    CATEGORICAL
+|            	s, g, p 
+|    	A13:	continuous.
+|    	A14:	continuous.
+|	
+|5-REMARKS:
+|
+|	Missing Attribute Values:
+|    		37 cases (5%) HAD one or more missing values.  The missing
+|    		values from particular attributes WERE:
+|
+|    		A1:  12
+|    		A2:  12
+|    		A4:   6
+|    		A5:   6
+|    		A6:   9
+|    		A7:   9
+|    		A14: 13
+|    
+|    		THESE WERE REPLACED BY THE MODE OF THE ATTRIBUTE (CATEGORICAL)
+|                               MEAN OF THE ATTRIBUTE (CONTINUOUS)
+|                           
+|   	There is no cost matrix.
+|
+|
+|_____________________________________________________________________________
+|
+|Three remarks relating to the StatLog version:
+|       
+|        THE LABELS HAVE BEEN CHANGED FOR THE CONVENIENCE OF THE STATISTICAL 
+|	ALGORITHMS.   FOR EXAMPLE, ATTRIBUTE 4 ORIGINALLY HAD 3 LABELS p,g,gg 
+|	AND THESE HAVE BEEN CHANGED TO LABELS 1,2,3.
+|
+|1.  Attributes 4 and 5 of the original WERE APPARENTLY IDENTICAL,  
+|    so ATTRIBUTE 4 OF THE ORIGINAL WAS REMOVED 
+|    (for the convenience of the statistical algorithms).
+|
+|2.  Where attributes were categorical, the categories were given numerical
+|    labels in the order of the relative risk of being class "+".  Treat 
+|    as categorical if thought desirable.   All StatLog trials treated
+|    these variables as numerical.
+|    
+|3.  A stepwise regression procedure strongly suggests that only
+|    attributes A5, A8, A9, A13 and A14 are relevant.   Improved results
+|    are often obtained if only these five attributes are used.
+|     
+|CONTACTS
+|	statlog-adm@ncc.up.pt
+|	bob@stams.strathclyde.ac.uk
+|	
+|	See README file for general information 
+|                        
+|================================================================================
+|
+
+0,1.
+A1:	0,1.
+A2:	continuous.
+A3:	continuous.
+A4:	1,2,3.
+A5:	1, 2,3,4,5, 6,7,8,9,10,11,12,13,14.
+A6:	 1, 2,3, 4,5,6,7,8,9.
+A7:	continuous.
+A8:	1, 0.
+A9: 	1, 0.
+A10:	continuous.
+A11:  	1, 0.
+A12:    1, 2, 3.
+A13:	continuous.
+A14:	continuous.

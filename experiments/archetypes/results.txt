@@ -1,0 +1,58 @@
+[[('name', 'Nips', 'size', (1500, 100), 'type', 'Archetype', 'dims', 3, 'spn_train_LL', -0.73439727775286501, 'dir_train_LL', 4.7728423090749699, 'spn_test_LL', -0.86470889885878144, 'dir_test_LL', 5.0744590264191878, 'spn_#_sum_nodes', 1, 'spn_#_prod_nodes', 16, 'spn_#_layers', 2)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'LDA', 'dims', 3, 'spn_train_LL', -1.0239106742537578, 'dir_train_LL', 2.0367992449661756, 'spn_test_LL', -1.1046540451877718, 'dir_test_LL', 2.0937077649898499, 'spn_#_sum_nodes', 2, 'spn_#_prod_nodes', 18, 'spn_#_layers', 4)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'Archetype', 'dims', 5, 'spn_train_LL', -1.633151889629904, 'dir_train_LL', 17.5525256209723, 'spn_test_LL', -1.7236729125403285, 'dir_test_LL', 19.162460453865307, 'spn_#_sum_nodes', 5, 'spn_#_prod_nodes', 23, 'spn_#_layers', 8)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'LDA', 'dims', 5, 'spn_train_LL', -3.1310984337570726, 'dir_train_LL', 7.2538635207426996, 'spn_test_LL', -3.1383691803772562, 'dir_test_LL', 7.4862617690953313, 'spn_#_sum_nodes', 6, 'spn_#_prod_nodes', 14, 'spn_#_layers', 6)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'Archetype', 'dims', 10, 'spn_train_LL', -0.66490579148371998, 'dir_train_LL', 60.479331264844468, 'spn_test_LL', -0.83622084187229173, 'dir_test_LL', 60.549804499341917, 'spn_#_sum_nodes', 8, 'spn_#_prod_nodes', 39, 'spn_#_layers', 8)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'LDA', 'dims', 10, 'spn_train_LL', -3.0751979671552649, 'dir_train_LL', 25.024628736455504, 'spn_test_LL', -3.2604763086990713, 'dir_test_LL', 25.180129349356438, 'spn_#_sum_nodes', 7, 'spn_#_prod_nodes', 32, 'spn_#_layers', 6)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'Archetype', 'dims', 20, 'spn_train_LL', 1.935237357467348, 'dir_train_LL', 150.93690278251697, 'spn_test_LL', 1.4221448426993766, 'dir_test_LL', 150.83463909016029, 'spn_#_sum_nodes', 4, 'spn_#_prod_nodes', 24, 'spn_#_layers', 8)],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'LDA', 'dims', 20, 'spn_train_LL', -0.91008153938804925, 'dir_train_LL', 69.69513522154385, 'spn_test_LL', -1.0642737795411388, 'dir_test_LL', 69.749651393187605, 'spn_#_sum_nodes', 9, 'spn_#_prod_nodes', 35, 'spn_#_layers', 6)],
+
+
+ [()],
+
+
+ [('name', 'Nips', 'size', (1500, 100), 'type', 'LDA', 'dims', 50, 'spn_train_LL', 11.200407824667353, 'dir_train_LL', 244.75877608237528, 'spn_test_LL', 11.006717044505873, 'dir_test_LL', 245.73786199648231, 'spn_#_sum_nodes', 7, 'spn_#_prod_nodes', 25, 'spn_#_layers', 8)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'Archetype', 'dims', 3, 'spn_train_LL', -0.41762458506508654, 'dir_train_LL', 5.4838308882247961, 'spn_test_LL', -0.54293302447898828, 'dir_test_LL', 5.7860245911482382, 'spn_#_sum_nodes', 1, 'spn_#_prod_nodes', 15, 'spn_#_layers', 2)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'LDA', 'dims', 3, 'spn_train_LL', 1.028673899426396, 'dir_train_LL', 5.1497101017575408, 'spn_test_LL', 1.1067831803400106, 'dir_test_LL', 5.2212237063267901, 'spn_#_sum_nodes', 5, 'spn_#_prod_nodes', 20, 'spn_#_layers', 4)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'Archetype', 'dims', 5, 'spn_train_LL', -0.69707166179936275, 'dir_train_LL', 17.541965537535607, 'spn_test_LL', -0.95860155731340835, 'dir_test_LL', 17.047940558444925, 'spn_#_sum_nodes', 1, 'spn_#_prod_nodes', 19, 'spn_#_layers', 2)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'LDA', 'dims', 5, 'spn_train_LL', 1.07067519131574, 'dir_train_LL', 7.819627280612524, 'spn_test_LL', 1.080398889951742, 'dir_test_LL', 7.7820712618575394, 'spn_#_sum_nodes', 2, 'spn_#_prod_nodes', 16, 'spn_#_layers', 4)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'Archetype', 'dims', 10, 'spn_train_LL', -1.041960146021278, 'dir_train_LL', 66.621401385684976, 'spn_test_LL', -1.3390250772930927, 'dir_test_LL', 67.564977429726397, 'spn_#_sum_nodes', 3, 'spn_#_prod_nodes', 20, 'spn_#_layers', 6)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'LDA', 'dims', 10, 'spn_train_LL', 3.5837049494818425, 'dir_train_LL', 26.953190575927003, 'spn_test_LL', 3.6809413202666921, 'dir_test_LL', 26.764398414252518, 'spn_#_sum_nodes', 4, 'spn_#_prod_nodes', 18, 'spn_#_layers', 6)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'Archetype', 'dims', 20, 'spn_train_LL', 0.77961509671772788, 'dir_train_LL', 173.78791843269767, 'spn_test_LL', 0.62947171291874038, 'dir_test_LL', 174.70288118022484, 'spn_#_sum_nodes', 2, 'spn_#_prod_nodes', 18, 'spn_#_layers', 4)],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'LDA', 'dims', 20, 'spn_train_LL', 9.0420392471300222, 'dir_train_LL', 104.01435553063082, 'spn_test_LL', 9.1607745066553861, 'dir_test_LL', 104.49487723824869, 'spn_#_sum_nodes', 7, 'spn_#_prod_nodes', 23, 'spn_#_layers', 8)],
+
+
+ [()],
+
+
+ [('name', 'Traffic', 'size', (1440, 38), 'type', 'LDA', 'dims', 50, 'spn_train_LL', 25.395035076469483, 'dir_train_LL', 331.34920560354334, 'spn_test_LL', 25.575403059982253, 'dir_test_LL', 332.53200682368066, 'spn_#_sum_nodes', 5, 'spn_#_prod_nodes', 23, 'spn_#_layers', 4)]]

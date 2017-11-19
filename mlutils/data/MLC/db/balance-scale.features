@@ -1,0 +1,5 @@
+Left-Weight: discrete.
+Left-Distance: discrete.
+Right-Weight: discrete.
+Right-Distance: discrete.
+class: categorical: L, B, R.

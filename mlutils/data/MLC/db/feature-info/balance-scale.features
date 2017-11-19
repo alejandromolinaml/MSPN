@@ -1,0 +1,5 @@
+Left-Weight: continuous.
+Left-Distance: continuous.
+Right-Weight: continuous.
+Right-Distance: continuous.
+class: categorical: L, B, R.

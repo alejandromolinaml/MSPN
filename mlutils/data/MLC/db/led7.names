@@ -1,0 +1,79 @@
+| LED 8 names file.
+| Created by YeoGirl Yun
+| Date : 5/14/94
+| The .all file is created using the following command :
+|  led-creator 3200 led7.all 239418 10
+| The .data file is the first 200, and the test is the rest.
+|
+| This data file is created by using AHA's led creator program.
+| Here is the relevant document from AHA
+|
+|------------------------------------------------------------------------------
+|1. Title of Database: LED display domain
+|
+|2. Sources:
+|   (a) Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J. (1984). 
+|       Classification and Regression Trees.  Wadsworth International
+|       Group: Belmont, California.  (see pages 43-49).
+|   (b) Donor: David Aha 
+|   (c) Date: 11/10/1988
+|
+|3. Past Usage: (many)
+|     1. CART book (above):
+|        -- Optimal Bayes classification rate: 74%
+|        -- CART decision tree algorithm: 71% (resubstitution estimate)
+|        -- Nearest Neighbor Algorithm: 71%
+|           -- 200 training and 5000 test instances
+|     
+|     2. Quinlan,J.R. (1987). Simplifying Decision Trees.  In International
+|        Journal of Man-Machine Studies (to appear).
+|        -- C4 decision tree algorithm: 72.6% (using pessimistic pruning)
+|           -- 2000 training and 500 test instances
+|     3. Tan,M. & Eshelman,L. (1988). Using Weighted Networks to Represent
+|        Classification Knowledge in Noisy Domains.  In Proceedings of the
+|        5th International Conference on Machine Learning, 121-134, Ann
+|        Arbor, Michigan: Morgan Kaufmann.  
+|        -- IWN system: 73.3% (using the And-OR classification algorithm)
+|           -- 400 training and 500 test cases
+|
+|4. Relevant Information Paragraph:
+|     This simple domain contains 7 Boolean attributes and 10 concepts,
+|     the set of decimal digits.  Recall that LED displays contain 7
+|     light-emitting diodes -- hence the reason for 7 attributes.  The
+|     problem would be easy if not for the introduction of noise.  In
+|     this case, each attribute value has the 10% probability of having
+|     its value inverted.  
+|
+|     It's valuable to know the optimal Bayes rate for these databases.
+|     In this case, the misclassification rate is 26% (74% classification
+|     accuracy).
+|        
+|5. Number of Instances: chosen by the user.
+|
+|6. Number of Attributes: 7 (all Boolean-valued)
+|
+|7. Attribute Information:
+|   -- All attribute values are either 0 or 1, according to whether
+|      the corresponding light is on or not for the decimal digit.
+|   -- Each attribute (excluding the class attribute, which is an
+|      integer ranging between 0 and 9 inclusive) has a 10% percent
+|      chance of being inverted.
+|
+|8. Missing Attribute Values: None
+|
+|9. Class Distribution: 10% (Theoretical)
+|   -- Each concept (digit) has the same theoretical probability
+|      distribution.  The program randomly selects the attribute.
+|
+|------------------------------------------------------------------------------
+
+0,1,2,3,4,5,6,7,8,9. | classes
+
+attribute#1 : 0,1.
+attribute#2 : 0,1.
+attribute#3 : 0,1.
+attribute#4 : 0,1.
+attribute#5 : 0,1.
+attribute#6 : 0,1.
+attribute#7 : 0,1.
+

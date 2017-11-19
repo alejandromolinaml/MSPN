@@ -1,0 +1,14 @@
+Age: continuous.
+Sex: categorical:male, fem.
+Chest pain type: categorical:angina, abnang, notang, asympt.
+Trestbps: continuous.
+Cholesterol: continuous.
+Fasting blood sugar < 120: categorical: true, fal.
+Resting ecg: categorical: norm, abn, hyp.
+Max heart rate: continuous.
+Exercise induced angina: categorical:true, fal.
+Oldpeak: continuous.
+Slope: categorical:up, flat, down.
+Number of vessels colored: discrete.
+Thal: categorical:norm, fix, rev.
+class: categorical: buff, sick.

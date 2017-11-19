@@ -1,0 +1,11 @@
+Sample code number:		continuous.
+Clump Thickness:discrete.
+Uniformity of Cell Size:discrete.
+Uniformity of Cell Shape:discrete.
+Marginal Adhesion:discrete.
+Single Epithelial Cell Size:discrete.
+Bare Nuclei:discrete.
+Bland Chromatin:discrete.
+Normal Nucleoli:discrete.
+Mitoses:discrete.
+class: categorical: benign, malignant.

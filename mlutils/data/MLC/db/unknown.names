@@ -1,0 +1,8 @@
+| File with one column of unknowns, one column with a known value,
+|   and noisy label
+| Ronny Kohavi 2/6/97
+
+0, 1
+
+foo: discrete
+extra: known

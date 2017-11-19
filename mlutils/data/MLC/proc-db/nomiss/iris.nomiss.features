@@ -1,0 +1,5 @@
+sepal-length:continuous:4.3,7.9.
+sepal-width:continuous:2.0,4.4.
+petal-length:continuous:1.0,6.9.
+petal-width:continuous:0.1,2.5.
+class:categorical:Iris-setosa,Iris-versicolor,Iris-virginica.
