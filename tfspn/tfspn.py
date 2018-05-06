@@ -652,7 +652,7 @@ class BernoulliNode(Node):
                 mapval = round(self.p)
                 mv[self.featureIdx] = mapval
                 # print(mapval, self.p, mv)
-                self.value = tf.log(self.dist.pmf(tf.zeros_like(X[:, self.featureIdx]) + mapval))
+                self.value = tf.log(self.dist.prob(tf.zeros_like(X[:, self.featureIdx]) + mapval))
             self.map = tf.ones_like(X) * mv
 
     def tftopy(self):
@@ -682,7 +682,7 @@ class BernoulliNode(Node):
         mpe_log_probs = np.zeros(obs.shape)
         mpe_log_probs[:] = LOG_ZERO
 
-        mpe_log_probs[query_ids] = np.log(self.p)
+        mpe_log_probs[query_ids] = np.log(self.p) if self.p > 0.5 else np.log(1-self.p)
         mpe_res[query_ids, self.featureIdx] = 1 if self.p > 0.5 else 0
 
         mpe_log_probs[~query_ids] = self.eval(data[~query_ids])
