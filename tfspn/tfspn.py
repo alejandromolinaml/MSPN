@@ -1423,7 +1423,7 @@ class HistNode(Node):
             if outside:
                 continue
 
-            density = self.densities[bisect.bisect_left(self.breaks, x) - 1]
+            density = self.densities[bisect.bisect(self.breaks, x) - 1]
 
             probs[i] += (1.0 - self.prior_weight) * density
 
