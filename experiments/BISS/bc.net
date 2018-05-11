@@ -1,0 +1,290 @@
+net
+{
+	rcenginegenerator1317510038576835557L = "edu.ucla.belief.inference.RCSettings@15b4ad2";
+}
+
+node MC
+{
+	states = ("Yes" "No" );
+	position = (413 50);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Microcalcifications";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Spiculation
+{
+	states = ("Yes" "No" );
+	position = (588 -297);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Spiculation";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Location
+{
+	states = ("UpOutQuad" "UpInQuad" "LolwOutQuad" "LowInQuad" );
+	position = (-56 -49);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Location";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Age
+{
+	states = ("<35" "35-49" "50-74" ">75" );
+	position = (30 49);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Age";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node LymphNodes
+{
+	states = ("yes" "no" );
+	position = (238 146);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Lymph Nodes";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node SkinRetract
+{
+	states = ("Yes" "No" );
+	position = (478 -15);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Skin Retraction";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Shape
+{
+	states = ("Other" "Round" "Oval" "Irregular" );
+	position = (234 -335);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Shape";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Size
+{
+	states = ("<1cm" "1-3cm" ">3cm" );
+	position = (75 -295);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Size";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node BC
+{
+	states = ("No" "Invasive" "Insitu" );
+	position = (221 -67);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "TARGET";
+	label = "Breast Cancer";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "TARGET";
+}
+node FibrTissueDev
+{
+	states = ("Yes" "No" );
+	position = (556 -160);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "AUXILIARY";
+	label = "Fibrous Tissue Develop.";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node BreastDensity
+{
+	states = ("low" "medium" "high" );
+	position = (10 -183);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Breast Density";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Margin
+{
+	states = ("Ill-defined" "Well-defined" );
+	position = (409 -327);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Margin";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node NippleDischarge
+{
+	states = ("Yes" "No" );
+	position = (606 -85);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Nipple Discharge";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node AD
+{
+	states = ("Yes" "No" );
+	position = (384 -165);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	iscptvalid = "true";
+	diagnosistype = "OBSERVATION";
+	label = "Architectural Distort.";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Metastasis
+{
+	states = ("yes" "no" );
+	position = (239 44);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "OBSERVATION";
+	label = "Metastasis";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "OBSERVATION";
+}
+node Mass
+{
+	states = ("No" "Malign" "Benign" );
+	position = (221 -204);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "TARGET";
+	label = "Mass";
+	isimpactvariable = "true";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "TARGET";
+}
+potential ( MC | BC )
+{
+	data = ((	0.030000000000000002	0.97	)
+		(	0.45	0.55	)
+		(	0.52	0.48	));
+}
+potential ( Spiculation | FibrTissueDev )
+{
+	data = ((	0.75	0.25	)
+		(	0.15	0.85	));
+}
+potential ( Location | )
+{
+	data = (	0.25	0.25	0.25	0.25	);
+}
+potential ( Age | )
+{
+	data = (	0.1	0.25	0.5	0.15	);
+}
+potential ( LymphNodes | Metastasis )
+{
+	data = ((	0.85	0.15	)
+		(	0.1	0.9	));
+}
+potential ( SkinRetract | FibrTissueDev BC )
+{
+	data = (((	0.35	0.65	)
+		(	0.85	0.15	)
+		(	0.65	0.35	))
+		((	0.05	0.95	)
+		(	0.35	0.65	)
+		(	0.25	0.75	)));
+}
+potential ( Shape | Mass )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0	0.1	0.15	0.75	)
+		(	0.05	0.65	0.25	0.05	));
+}
+potential ( Size | Mass )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	0.3	0.55	0.15	)
+		(	0.1	0.25	0.65	));
+}
+potential ( BC | Age Location )
+{
+	data = (((	0.95	0.02	0.03	)
+		(	0.96	0.02	0.02	)
+		(	0.98	0.01	0.01	)
+		(	0.98	0.01	0.01	))
+		((	0.55	0.2	0.25	)
+		(	0.65	0.15	0.2	)
+		(	0.75	0.15	0.1	)
+		(	0.7	0.15	0.15	))
+		((	0.5	0.3	0.2	)
+		(	0.5	0.35	0.15	)
+		(	0.55	0.3	0.15	)
+		(	0.55	0.35	0.1	))
+		((	0.6	0.25	0.15	)
+		(	0.65	0.2	0.15	)
+		(	0.65	0.2	0.15	)
+		(	0.7	0.19999999999999998	0.09999999999999999	)));
+}
+potential ( FibrTissueDev | AD )
+{
+	data = ((	0.75	0.25	)
+		(	0.35	0.65	));
+}
+potential ( BreastDensity | )
+{
+	data = (	0.2	0.5	0.3	);
+}
+potential ( Margin | Mass Spiculation )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.95	0.05	)
+		(	0.8	0.2	))
+		((	0.65	0.35	)
+		(	0.25	0.75	)));
+}
+potential ( NippleDischarge | FibrTissueDev BC )
+{
+	data = (((	0.35	0.65	)
+		(	0.85	0.15	)
+		(	0.65	0.35	))
+		((	0.05	0.95	)
+		(	0.35	0.65	)
+		(	0.25	0.75	)));
+}
+potential ( AD | BC )
+{
+	data = ((	0.05	0.95	)
+		(	0.45	0.55	)
+		(	0.3	0.7	));
+}
+potential ( Metastasis | BC )
+{
+	data = ((	0.0	1.0	)
+		(	0.9	0.1	)
+		(	0.15	0.85	));
+}
+potential ( Mass | BC BreastDensity )
+{
+	data = (((	0.95	0.0	0.05	)
+		(	0.9	0.0	0.1	)
+		(	0.85	0.0	0.15	))
+		((	0.25	0.55	0.2	)
+		(	0.2	0.65	0.15	)
+		(	0.1	0.8	0.1	))
+		((	0.25	0.3	0.45	)
+		(	0.25	0.35	0.4	)
+		(	0.2	0.4	0.4	)));
+}
